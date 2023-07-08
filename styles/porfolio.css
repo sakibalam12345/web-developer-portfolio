@@ -50,19 +50,21 @@ nav a {
     padding: 25px 25px 0px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
+    
 
 }
 
 .banner-content {
     max-width: 500px;
+   padding-left: 150px;
 }
 
 .header {
     background-color: #FFF8F3;
     background-image: url('./header_bg.png'), url('./developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, left;
+    background-position: bottom right,top left;
 
 }
 
@@ -162,6 +164,17 @@ footer{
     display: flex;
     background-color: #FFF8F3;
     margin-top: 130px;
-    padding: 130px 580px;
+    padding: 230px 350px;
+    gap: 100px;
+}
+.footer-colom{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    width: 100%;
+    border-radius: 5px;
 }
 
