@@ -96,6 +96,10 @@ nav a {
 
 /*header ends*/
 /* main starts*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .about {
     padding: 130px;
@@ -115,4 +119,11 @@ nav a {
     text-align: center;
 font-size: 18px;
 font-weight: 400;
+}
+.info-container{
+    display: flex;
+  justify-content: space-around;
+}
+.info{
+    text-align: center;
 }
